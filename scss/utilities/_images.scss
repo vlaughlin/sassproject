@@ -1,0 +1,62 @@
+/*Images*/
+
+.student-picture {
+    
+	display: block;
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+    
+    @include tablet {
+		float: right;
+		display: inline-block;
+		max-width: 35%;
+		margin-left: 10%;
+		margin-right: 6%;
+    }
+		@include desktop {
+			float: right;
+			padding: 2em;
+		}
+	}
+
+
+img {
+	max-width: 100%;
+	display: block;
+	margin-left: -20px
+}
+
+li {
+	list-style: none;
+	@include tablet {
+		display: inline;
+		padding-right: 20px;
+	}
+}
+
+ul.products li {
+	@include tablet {
+		width: 49%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+    @include desktop {
+		width: 33%;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+ul.products {
+	@include tablet {
+		margin-left: 1%;
+		margin-right: auto;
+	}
+	
+    @include desktop {
+		margin-left: 1%;
+		margin-right: auto;
+	}
+}

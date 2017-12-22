@@ -1,0 +1,31 @@
+/*Footer*/
+
+.studentname-footer {
+	display: inline-block;
+	float: left;
+}
+
+.back-to-top {
+	display: inline-block;
+	float: right;
+	list-style: none;
+	 
+       @include tablet {
+		display: none;
+	}
+}
+
+ul.footer-nav {
+	display: none;
+	 
+    @include tablet {
+		display: inline-block;
+		list-style-type: none;
+		float: right;
+	}
+}
+
+.line-separator {
+	height: 1px;
+	border-bottom: 1px solid $color-separator;
+}

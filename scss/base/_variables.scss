@@ -1,0 +1,40 @@
+// Descriptive color variables
+
+$white          : #fff;
+$black          : #000;
+$silver         : #C4C2C2;
+$dimgrey        : #696969;
+$jaggedice      : #CEEDE1;
+$coral          : #FF7F50;
+$cadetblue      : #A9B2C3;
+
+
+// Functional color variables
+
+$color-background : $jaggedice;
+$color-container  : $white;
+$color-separator  : $silver;
+
+$color-text-default : $black;
+$color-text-intro   : $dimgrey;
+
+$color-link-default : $black;
+$color-link-visited : $coral;
+$color-link-active  : $cadetblue;
+
+// Media query breakpoints
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
