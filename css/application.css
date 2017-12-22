@@ -1,0 +1,188 @@
+/* Base Element Styles */
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #000;
+  font-family: 'Alice', serif;
+  background-color: #CEEDE1; }
+  @media (min-width: 768px) {
+    body {
+      padding-top: 5px; } }
+
+/*Links*/
+a {
+  /* Unvisited Links */
+  /* Visited Links */
+  /* Selected Links */ }
+  a:link {
+    text-decoration: none;
+    font-size: 18px; }
+  a:link {
+    color: #696969; }
+  a:visited {
+    color: #FF7F50; }
+  a:active {
+    color: #A9B2C3; }
+
+/*Base Layout Styles*/
+/* ---- Navigation ---- */
+.main-nav-nav li {
+  background: #fff;
+  margin: 5px;
+  list-style: none;
+  max-width: 90%; }
+  @media (min-width: 768px) {
+    .main-nav-nav li {
+      display: inline-block;
+      margin-right: 1%;
+      margin-left: 2%;
+      background: none;
+      text-align: center; } }
+@media (min-width: 1024px) {
+  .main-nav {
+    display: inline-block;
+    float: right;
+    min-width: 350px; } }
+.main-nav-nav a {
+  color: #000;
+  text-transform: uppercase; }
+.main-nav-nav a:hover {
+  background-color: #A9B2C3; }
+
+.name a {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+  margin: 0; }
+
+@media (min-width: 1024px) {
+  .name {
+    float: left;
+    margin: 0 1%;
+    padding: 0 2px; } }
+
+@media (min-width: 1024px) {
+  .profile {
+    margin-top: 100px; } }
+
+/* ---- Layout Containers ---- */
+p.introduction {
+  padding: 2%;
+  color: #696969; }
+  @media (min-width: 768px) {
+    p.introduction {
+      float: left;
+      width: 47.5%; } }
+  @media (min-width: 1024px) {
+    p.introduction {
+      float: left;
+      font-size: 17px; } }
+
+.portfolio {
+  background: #fff;
+  display: inline-block; }
+
+.p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #000; }
+  @media (min-width: 1024px) {
+    .p {
+      text-align: justify; } }
+
+p.contact {
+  padding: 10%; }
+
+/*Footer*/
+.studentname-footer {
+  display: inline-block;
+  float: left; }
+
+.back-to-top {
+  display: inline-block;
+  float: right;
+  list-style: none; }
+  @media (min-width: 768px) {
+    .back-to-top {
+      display: none; } }
+
+ul.footer-nav {
+  display: none; }
+  @media (min-width: 768px) {
+    ul.footer-nav {
+      display: inline-block;
+      list-style-type: none;
+      float: right; } }
+
+.line-separator {
+  height: 1px;
+  border-bottom: 1px solid #C4C2C2; }
+
+.main-header, h3, .portfolio-title, p.phone, p.e-mail {
+  text-align: center; }
+
+p.introduction, .p, p.contact {
+  text-align: justify; }
+
+.name a,
+.main-nav {
+  display: block;
+  padding: 10px 1px;
+  text-decoration: none; }
+
+/*Images*/
+.student-picture {
+  display: block;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 768px) {
+    .student-picture {
+      float: right;
+      display: inline-block;
+      max-width: 35%;
+      margin-left: 10%;
+      margin-right: 6%; } }
+  @media (min-width: 1024px) {
+    .student-picture {
+      float: right;
+      padding: 2em; } }
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-left: -20px; }
+
+li {
+  list-style: none; }
+  @media (min-width: 768px) {
+    li {
+      display: inline;
+      padding-right: 20px; } }
+
+@media (min-width: 768px) {
+  ul.products li {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top; } }
+@media (min-width: 1024px) {
+  ul.products li {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top; } }
+
+@media (min-width: 768px) {
+  ul.products {
+    margin-left: 1%;
+    margin-right: auto; } }
+@media (min-width: 1024px) {
+  ul.products {
+    margin-left: 1%;
+    margin-right: auto; } }
+
+/*# sourceMappingURL=application.css.map */
